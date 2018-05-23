@@ -11,7 +11,5 @@ Cloning Frontend Project
 Gentle Monster : https://teamhide.github.io/clone_frontend/GentleMonster/
 
 Apple : https://teamhide.github.io/clone_frontend/Apple/
-<<<<<<< HEAD
 
-=======
->>>>>>> 6bba65f94088f03d8c9f389ba9602f57869b60a9
+Instagram Feed : https://teamhide.github.io/clone_frontend/InstaFeed/
