@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body {
+    background-color: #f9f9f9;
+}
+nav {
+    background-color: white;
+}
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 75;
+}
+.nav-wrap img {
+    height: 3rem;
+    width: 13rem;
+    margin-left: 20;
+}
+.nav-wrap input {
+    font-family:'Font Awesome 5 Brand' !important
+}
+.nav-wrap a {
+    margin-right: 20;
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: 600;
+}
+section {
+    height: 100%;
+    width: 100%;
+}
+.section-container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.section-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15;
+    margin-right: 15;
+}
+.section-header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30;
+    margin-top: 50;
+}
+.section-header img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 15rem;
+}
+.header-img {
+    flex: 1;
+}
+.header-body {
+    flex: 9;
+    margin-left: 70;
+}
+.feed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15;
+}
+.feed img {
+    max-width: 30%;
+    max-height: 50%;
+}
+.center-img {
+    margin-right: 15;
+    margin-left: 15;
+}
+.body-sub1 p {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-right: 8;
+    display: inline-block;
+}
+.body-sub1 i {
+    margin-right: 20;
+}
+.body-sub1 button {
+    padding-left: 30;
+    padding-right: 30;
+    padding-bottom: 5;
+    padding-top: 5;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 0.2rem;
+}
+.body-sub2 {
+    display: flex;
+    margin-bottom: 20;
+}
+.count {
+    flex: 3;
+}
+.followers {
+    flex: 3;
+}
+.following {
+    flex: 6;
+}
+.section-footer {
+    display: flex;
+    margin-bottom: 30;
+    margin: 0 auto;
+}
+.footer1 a, .footer2 a {
+    flex: 1;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 0.8rem;
+}
+.footer3 a {
+    text-decoration: none;
+    color: darkgray;
+    font-size: 0.8rem;
+}

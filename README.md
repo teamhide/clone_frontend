@@ -12,4 +12,4 @@ Gentle Monster : https://teamhide.github.io/clone_frontend/GentleMonster/
 
 Apple : https://teamhide.github.io/clone_frontend/Apple/
 
-Instagram Feed : https://teamhide.github.io/clone_frontend/InstaFeed/
+Instagram Feed(ing) : https://teamhide.github.io/clone_frontend/InstaFeed/
