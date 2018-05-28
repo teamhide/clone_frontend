@@ -59,6 +59,9 @@ html, body {
 .nav-top-right a:not(:first-child) {
     margin-right: -20px;
 }
+.nav-top-right a:last-child {
+    margin-right: 0px;
+}
 /* 헤더 하단 메뉴 */
 .nav-bottom {
     display: flex;
@@ -193,6 +196,9 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+.section4-text-img img {
+    width: 100%;
+}
 .section4-text-img span {
     margin-top: 10px;
     margin-bottom: 80px;
@@ -230,6 +236,7 @@ html, body {
     font-weight: 100;
     font-size: 0.8rem;
     margin-bottom: 80px;
+    border-radius: 0.3rem;
 }
 .section2-text span {
     display: flex;
@@ -241,6 +248,7 @@ html, body {
     font-weight: 100;
     font-size: 0.8rem;
     margin-bottom: 80px;
+    border-radius: 0.3rem;
 }
 .section5 video {
     width: 100%;
@@ -270,6 +278,7 @@ html, body {
     font-weight: 100;
     width: 100px;
     font-size: 0.8rem;
+    border-radius: 0.3rem;
 }
 /* Footer */
 .footer1 {
@@ -311,6 +320,9 @@ html, body {
     color: gray;
     border-radius: 1rem;
     margin-right: 5px;
+}
+.footer1-4-icon a:last-child {
+    margin-right: -100px;
 }
 .footer2 {
     display: flex;
@@ -368,4 +380,46 @@ html, body {
     flex: 1;
     justify-content: center;
     align-items: center;
+}
+/* Mobile */
+.nav-mobile {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.nav-mobile-left {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    font-size: 3rem;
+}
+.nav-mobile-right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.7rem;
+}
+.nav-mobile-right a, .nav-mobile-left a {
+    margin-right: 25px;
+    color: black;
+}
+.nav-mobile-left a {
+    margin-left: 20px;
+}
+#search-cancel {
+    background-color: white;
+    border: 1px solid black;
+}
+@media screen and (max-width: 768px) {
+    .nav-mobile {
+        display: flex;
+    }
+    .nav-top {
+        display: none;
+    }
+    .nav-bottom {
+        display: none;
+    }
 }

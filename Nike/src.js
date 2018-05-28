@@ -26,4 +26,8 @@ showGirlsDropdown = () => {
 hideGirlsDropdown = () => {
     document.getElementById("nav-bottom-dropdown4").style.display = 'none';
 }
-/* COLLECTION DROPDOWN */
+/* MOBILE Function */
+showSearch = () => {
+    document.getElementById("nav-mobile").style.display = 'flex';
+    document.getElementById("nav-mobile").innerHTML = "<input type='text' placeholder='검색' />";
+}
