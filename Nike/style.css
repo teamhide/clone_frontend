@@ -102,9 +102,16 @@ html, body {
     font-size: 1.1rem;
     font-weight: 800;
 }
+.nav-bottom-right input {
+    border-radius: 0.2rem;
+    border: 0.05rem solid black;
+    padding: 10px;
+}
 /* Nav Bottom Dropdown */
 .nav-bottom-dropdown1 {
-    display: flex;
+    display: none;
+    position: absolute;
+    background-color: white;
     height: 370px;
     width: 100%;
     border: 1px solid #e2e2e2;
@@ -112,7 +119,6 @@ html, body {
 .nav-bottom-dropdown1 .dropdown1-1, .nav-bottom-dropdown1 .dropdown1-3 {
     display: flex;
     flex-direction: column;
-    
 }
 .nav-bottom-dropdown1 a {
     text-decoration: none;
@@ -166,6 +172,32 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+.section4-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section4-img img:first-child {
+    width: 100%;
+}
+.section4-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section4-text-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.section4-text-img span {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 0.8rem;
+}
 .section1 img:first-child {
     width: 100%;
 }
@@ -176,10 +208,164 @@ html, body {
 .section1 img:nth-child(3) {
     margin-bottom: 10px;
 }
+.section1-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section2-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .section1-text span {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     height: 40px;
+    width: 20%;
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin-bottom: 80px;
+}
+.section2-text span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 40px;
+    width: 10%;
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin-bottom: 80px;
+}
+.section5 video {
+    width: 100%;
+}
+.section5-text-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section5-text-img img {
+    margin-top: 10px;
+}
+.section5-button {
+    display: flex;
+    justify-content: center;
+}
+.section5-button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    height: 30px;
+    font-weight: 100;
+    width: 100px;
+    font-size: 0.8rem;
+}
+/* Footer */
+.footer1 {
+    display: flex;
+    height: 400px;
+    background-color: black;
+}
+.footer1 a, .footer1 span {
+    color: white;
+    text-decoration: none;
+}
+.footer1-1, .footer1-2, .footer1-3, .footer1-4 {
+    padding: 40px;
+    padding-left: 50px;
+    flex: 1;
+}
+.footer1-1, .footer1-2, .footer1-3 {
+    display: flex;
+    flex-direction: column;
+}
+.footer1-1 a {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.footer1-2 span, .footer1-3 span, .footer1-4 span {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.footer1-2 a, .footer1-3 a {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+    color: #cecaca;
+}
+.footer1-4-icon {
+    margin-top: 10px;
+}
+.footer1-4-icon a {
+    font-size: 1.3rem;
+    color: gray;
+    border-radius: 1rem;
+    margin-right: 5px;
+}
+.footer2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 50px;
+    border-top: 0.001rem solid #e2e0e0;
+    border-bottom: 0.001rem solid #e2e0e0;
+    background-color: black;
+}
+.footer2-1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer2-1 span:first-child {
+    font-size: 0.7rem;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.footer2-1 span i {
+    margin-right: 8px;
+}
+.footer2-1 span:last-child, .footer2-2 span {
+    font-size: 0.7rem;
+    color: #cecaca;
+}
+.footer2-2 span {
+    margin-right: 20px;
+}
+.footer2-2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer3 {
+    display: flex;
+    background-color: black;
+    height: 120px;
+    justify-content: space-around;
+    color: #cecaca;
+    font-size: 0.7rem;
+}
+.footer3 span:first-child {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.footer3 span:last-child {
+    margin: 30px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
