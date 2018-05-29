@@ -478,6 +478,44 @@ html, body {
     text-decoration: none;
     color: #c6c6c6;
 }
+/* Mobile Hamburger menu */
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.mobile-menu-scroll {
+    overflow: scroll;
+}
+.mobile-menu-big-sub {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #efefef;
+}
+.mobile-menu-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 50px;
+    background-color: #f9f9f9;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+}
+.mobile-menu-big-sub i {
+    cursor: pointer;
+}
 @media screen and (max-width: 768px) {
     .nav-mobile {
         display: flex;

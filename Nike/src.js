@@ -33,3 +33,10 @@ showSearch = () => {
 hideSearch = () => {
     document.getElementById("mobile-search").style.display = 'none';
 }
+/* MOBILE HAMBURGER MENU */
+showMenu = () => {
+    document.getElementById("mobile-menu").style.display = 'block';
+}
+hideMenu = () => {
+    document.getElementById("mobile-menu").style.display = 'none';
+}
