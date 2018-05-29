@@ -1,11 +1,56 @@
 <html>
 <head>
+    <title>TOM FORD Online Store</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src.js"></script>
 </head>
 <body>
     <header>
+        <div class="mobile-header">
+            <div class="mobile-header-top">
+                <a href="#">STORE LOCATOR</a>
+                <a href="#">LOG IN/REGISTER</a>
+            </div>
+            <div class="mobile-header-bottom">
+                <div class="mobile-header-bottom-left">
+                    <a href="#" onclick="showMobileMenu()"><i class="fas fa-bars"></i></a>
+                    <a href="#">TOM FORD</a>
+                </div>
+                <div class="mobile-header-bottom-right">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay" onclick="hideMobileMenu()">
+            <div class="mobile-menu">
+                <div class="mobile-menu-sub">
+                    <span>COLLECTIONS</span>
+                    <span>></span>
+                </div>
+                <div class="mobile-menu-sub">
+                    <span>MEN</span>
+                    <span>></span>
+                </div>         
+                <div class="mobile-menu-sub">
+                    <span>WOMEN</span>
+                    <span>></span>
+                </div>
+                <div class="mobile-menu-sub">
+                    <span>BEAUTY</span>
+                    <span>></span>
+                </div>
+                <div class="mobile-menu-sub">
+                    <span>WATCHES</span>
+                    <span>></span>
+                </div>
+                <div class="mobile-menu-sub">
+                    <span>NEWS</span>
+                </div>
+            </div>        
+        </div>
         <div class="header">
             <div class="header-left">
                 <a href="#">NEWSLETTER SIGNUP ></a>
@@ -21,13 +66,17 @@
         </div>
         <nav>
             <div class="header-menu">
-                <a href="#">TOM FORD</a>
-                <a href="#">COLLECTIONS</a>
-                <a href="#">MEN</a>
-                <a href="#">WOMEN</a>
-                <a href="#">BEAUTY</a>
-                <a href="#">WATCHES</a>
-                <a href="#">NEWS</a>
+                <div class="header-menu-logo">
+                    <a href="#">TOM FORD</a>
+                </div>
+                <div class="header-menu-sub">
+                    <a href="#">COLLECTIONS</a>
+                    <a href="#">MEN</a>
+                    <a href="#">WOMEN</a>
+                    <a href="#">BEAUTY</a>
+                    <a href="#">WATCHES</a>
+                    <a href="#">NEWS</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -115,6 +164,14 @@
                 <span><i class="fab fa-pinterest-p"></i></span>
                 <span><i class="fab fa-weibo"></i></span>
                 <span><i class="fab fa-google-plus-g"></i></span>
+            </div>
+        </div>
+        <div class="footer3-mobile">
+            <div class="footer3-mobile-top">
+                <span>© TOM FORD. All Rights Reserved.</span>
+            </div>
+            <div class="footer3-mobile-bottom">
+                <span>Privacy Policy | Terms & Conditions</span>
             </div>
         </div>
     </footer>
