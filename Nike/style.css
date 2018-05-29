@@ -175,9 +175,6 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-.section1-img img:last-child {
-    width: 100%;
-}
 .section4-img {
     display: flex;
     flex-direction: column;
@@ -264,7 +261,6 @@ html, body {
 }
 .section5-text-img img {
     margin-top: 10px;
-    width:100%;
 }
 .section5-button {
     display: flex;
@@ -514,4 +510,10 @@ html, body {
         padding-right: 7px;
         padding-left: 7px;
     }
+    .section1-img img:last-child {
+        width: 80%;
+    }
+    .section5-text-img img {
+        width:80%;
+    }    
 }
