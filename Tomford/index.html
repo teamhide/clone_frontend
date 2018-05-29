@@ -19,10 +19,14 @@
                     <a href="#">TOM FORD</a>
                 </div>
                 <div class="mobile-header-bottom-right">
-                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#" onclick="showSearch()"><i class="fas fa-search"></i></a>
                     <a href="#"><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
+        </div>
+        <div class="mobile-search" id="mobile-search">
+            <input type="text" placeholder="SEARCH">
+            <a href="#" onclick="hideSearch()">X</a>
         </div>
         <div class="mobile-menu-overlay" id="mobile-menu-overlay" onclick="hideMobileMenu()">
             <div class="mobile-menu">

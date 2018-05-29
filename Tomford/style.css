@@ -312,8 +312,28 @@ html, body {
 .mobile-menu-sub:last-child {
     border-bottom: none;
 }
-.mobile-menu-sub span {
-
+.mobile-search {
+    display: none;
+    height: 65px;
+}
+.mobile-search input {
+    flex: 9;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+    border-top: 1px solid #afafaf;
+    border-bottom: 1px solid #afafaf;
+}
+.mobile-search a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid #afafaf;
+    border-bottom: 1px solid #afafaf;
 }
 @media screen and (max-width: 976px) {
     .header-right a:first-child {
