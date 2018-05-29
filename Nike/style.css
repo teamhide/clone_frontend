@@ -169,9 +169,6 @@ html, body {
     width: 100%;
 }
 /* Section */
-section {
-    padding: 10px;
-}
 .section1-img {
     display: flex;
     flex-direction: column;
@@ -512,5 +509,9 @@ section {
     }
     .mobile-footer2 {
         display: flex;
+    }
+    section {
+        padding-right: 7px;
+        padding-left: 7px;
     }
 }
