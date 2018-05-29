@@ -28,6 +28,8 @@ hideGirlsDropdown = () => {
 }
 /* MOBILE Function */
 showSearch = () => {
-    document.getElementById("nav-mobile").style.display = 'flex';
-    document.getElementById("nav-mobile").innerHTML = "<input type='text' placeholder='검색' />";
+    document.getElementById("mobile-search").style.display = 'flex';
+}
+hideSearch = () => {
+    document.getElementById("mobile-search").style.display = 'none';
 }
