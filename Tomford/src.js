@@ -12,3 +12,10 @@ showSearch = () => {
 hideSearch = () => {
     document.getElementById("mobile-search").style.display = 'none';
 }
+/* DROPDOWN MENU */
+showDropDownMenu = () => {
+    document.getElementById("header-menu-bottom").style.display = 'flex';
+}
+hideDropDownMenu = () => {
+    document.getElementById("header-menu-bottom").style.display = 'none';
+}
