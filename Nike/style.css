@@ -169,11 +169,17 @@ html, body {
     width: 100%;
 }
 /* Section */
+section {
+    padding: 10px;
+}
 .section1-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.section1-img img:last-child {
+    width: 100%;
 }
 .section4-img {
     display: flex;
@@ -261,6 +267,7 @@ html, body {
 }
 .section5-text-img img {
     margin-top: 10px;
+    width:100%;
 }
 .section5-button {
     display: flex;

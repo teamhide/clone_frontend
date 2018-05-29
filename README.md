@@ -7,6 +7,8 @@ Cloning Frontend Project
 
 모든 사이트가 반응형으로 제작된 것은 아니며 몇몇 사이트만 반응형에 대비하여 제작되었습니다.
 
+최대한 순수 HTML/CSS/JS로 구현하려 노력했으며 Jquery등의 라이브러리 사용은 지양하였습니다.
+
 # Current List
 
 Gentle Monster : https://teamhide.github.io/clone_frontend/GentleMonster/
