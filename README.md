@@ -18,3 +18,7 @@ Apple : https://teamhide.github.io/clone_frontend/Apple/
 Instagram Feed(ing) : https://teamhide.github.io/clone_frontend/InstaFeed/
 
 Nike : https://teamhide.github.io/clone_frontend/Nike/
+
+Tomford : https://teamhide.github.io/clone_frontend/Tomford/
+
+Youtube: https://teamhide.github.io/clone_frontend/Youtube/
