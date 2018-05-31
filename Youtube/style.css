@@ -7,6 +7,7 @@ header {
     display: flex;
     position: fixed;
     width: 100%;
+    background-color: white;
     top: 0;
     padding: 15px;
     box-shadow: 0 4px 6px -6px #222;
@@ -198,7 +199,7 @@ section {
     margin-right: 5px;
 }
 .section-body-detail img {
-    width: 180px;
+    width: 100%;
     height: 120px;
 }
 .section-body-detail span {
